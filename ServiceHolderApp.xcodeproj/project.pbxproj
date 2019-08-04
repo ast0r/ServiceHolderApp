@@ -12,6 +12,8 @@
 		9CB4C5BB2243C0BF004F0F82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB4C5B92243C0BF004F0F82 /* Main.storyboard */; };
 		9CB4C5BD2243C0C2004F0F82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CB4C5BC2243C0C2004F0F82 /* Assets.xcassets */; };
 		9CB4C5C02243C0C2004F0F82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB4C5BE2243C0C2004F0F82 /* LaunchScreen.storyboard */; };
+		9CB4C5C82243C192004F0F82 /* ServiceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB4C5C72243C192004F0F82 /* ServiceHolder.swift */; };
+		9CB4C5CA2243C1A6004F0F82 /* CustomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB4C5C92243C1A6004F0F82 /* CustomModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9CB4C5BC2243C0C2004F0F82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CB4C5BF2243C0C2004F0F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CB4C5C12243C0C2004F0F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB4C5C72243C192004F0F82 /* ServiceHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceHolder.swift; sourceTree = "<group>"; };
+		9CB4C5C92243C1A6004F0F82 /* CustomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				9CB4C5BC2243C0C2004F0F82 /* Assets.xcassets */,
 				9CB4C5BE2243C0C2004F0F82 /* LaunchScreen.storyboard */,
 				9CB4C5C12243C0C2004F0F82 /* Info.plist */,
+				9CB4C5C72243C192004F0F82 /* ServiceHolder.swift */,
+				9CB4C5C92243C1A6004F0F82 /* CustomModel.swift */,
 			);
 			path = ServiceHolderApp;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CB4C5CA2243C1A6004F0F82 /* CustomModel.swift in Sources */,
 				9CB4C5B82243C0BF004F0F82 /* ViewController.swift in Sources */,
 				9CB4C5B62243C0BF004F0F82 /* AppDelegate.swift in Sources */,
+				9CB4C5C82243C192004F0F82 /* ServiceHolder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
